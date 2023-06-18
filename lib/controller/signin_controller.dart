@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import '../bloc/LoginBloc/login_bloc.dart';
-import '../screens/signUp/signup_screen.dart';
+
 
 
 String? isValidEmail(String? email) {

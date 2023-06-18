@@ -1,6 +1,6 @@
 import 'package:chat_gpt/bloc/signUpbloc/signup_bloc.dart';
 import 'package:chat_gpt/routs/routs.dart';
-import 'package:chat_gpt/screens/login/login_page.dart';
+
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

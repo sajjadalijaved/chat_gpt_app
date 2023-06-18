@@ -4,6 +4,7 @@ import 'package:chat_gpt/bloc/signUpbloc/signup_bloc.dart';
 import 'package:chat_gpt/providers/chat_provider.dart';
 import 'package:chat_gpt/providers/model_providers.dart';
 import 'package:chat_gpt/routs/routs.dart';
+
 import 'package:chat_gpt/screens/googlelogin/google_screen.dart';
 import 'package:chat_gpt/screens/homePage/homepage.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -20,6 +21,7 @@ void main()async {
   runApp(MyApp());
 }
 
+// ignore: must_be_immutable
 class MyApp extends StatelessWidget {
    MyApp({super.key});
 
@@ -54,7 +56,9 @@ FirebaseAuth auth = FirebaseAuth.instance;
           auth.currentUser != null
             ? const HomePage()
            : 
-               const GoogleSignInPage()),
+               const GoogleSignInPage()
+          ),
+
       
     );
   }

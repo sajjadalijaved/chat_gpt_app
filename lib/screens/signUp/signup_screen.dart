@@ -1,5 +1,5 @@
 import 'package:chat_gpt/bloc/signUpbloc/signup_bloc.dart';
-import 'package:chat_gpt/constans/constants.dart';
+
 import 'package:chat_gpt/routs/routs.dart';
 import 'package:chat_gpt/screens/signUp/signup_form.dart';
 import 'package:flutter/material.dart';

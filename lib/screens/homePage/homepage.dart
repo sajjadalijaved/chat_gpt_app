@@ -1,7 +1,9 @@
+// ignore_for_file: sized_box_for_whitespace
+
 import 'dart:developer';
 
 import 'package:chat_gpt/constans/constants.dart';
-import 'package:chat_gpt/models/chat_model.dart';
+
 import 'package:chat_gpt/providers/chat_provider.dart';
 import 'package:chat_gpt/providers/model_providers.dart';
 import 'package:chat_gpt/routs/routs.dart';

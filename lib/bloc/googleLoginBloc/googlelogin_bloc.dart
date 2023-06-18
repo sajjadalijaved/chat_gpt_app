@@ -1,5 +1,7 @@
+// ignore_for_file: depend_on_referenced_packages
+
 import 'package:bloc/bloc.dart';
-import 'package:chat_gpt/auhthentication/authenticationPage.dart';
+import 'package:chat_gpt/auhthentication/authenticationpage.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:meta/meta.dart';
 
