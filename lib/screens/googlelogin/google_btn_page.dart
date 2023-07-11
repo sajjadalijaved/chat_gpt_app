@@ -43,8 +43,8 @@ class SignInButtonPage extends StatelessWidget {
             btnClick: googleSigninuseemailandpasswordClick,
             color: Colors.white,
             border: Border.all(color: const Color.fromARGB(255, 126, 189, 8)),
-            child: Row(
-              children: const [
+            child: const Row(
+              children: [
                 Spacer(
                   flex: 10,
                 ),
@@ -80,8 +80,8 @@ class SignInButtonPage extends StatelessWidget {
             btnClick: googleSigninClick,
             color: Colors.white,
             border: Border.all(color: const Color.fromARGB(255, 1, 6, 15)),
-            child: Row(
-              children: const [
+            child: const Row(
+              children: [
                 Spacer(
                   flex: 10,
                 ),
@@ -115,8 +115,8 @@ class SignInButtonPage extends StatelessWidget {
           btnClick: googleSigninClick,
           color: Colors.white,
           border: Border.all(color: const Color.fromARGB(255, 6, 73, 197)),
-          child: Row(
-              children: const [
+          child: const Row(
+              children: [
                 Spacer(
                   flex: 10,
                 ),
